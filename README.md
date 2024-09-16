@@ -17,7 +17,7 @@ Django is a powerful web framework, and learning it often involves examining exi
 
 ## Project Structure
 
-- **`/todo`**: The main app where all the logic for the To-Do application resides.
+- **`/AuthSystem`**: The main app where all the logic for the To-Do application resides.
 - **`/templates`**: Directory containing HTML templates for rendering views.
 - **`/static`**: Directory for static files like CSS and JavaScript.
 - **`manage.py`**: Command-line utility for administrative tasks.
