@@ -1,0 +1,50 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar p {
+    font-size: 30px;
+}
+
+.login-signup ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style-type: none;
+}
+
+
+.login-signup ul li a{
+    text-decoration-line: none;
+}
+
+.content h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content h1{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

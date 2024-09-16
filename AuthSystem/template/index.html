@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Auth System System</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="navbar">
+        <div class='navbar-brand'>
+        {% comment %} <img src="static/logo.png" alt="logo"> {% endcomment %}
+        {% comment %} <img src="{% static 'logo.png' %}" alt="logo"> {% endcomment %}
+        <p>Todo</p>
+        </div>
+
+        <form action="/search/" method="GET">
+            <input type="search" name="query" placeholder="Search..." required>
+            <button type="submit">Search</button>
+        </form>
+
+        <div class="login-signup">
+        <ul>
+            <li><a href="">Login</a></li>
+            <li><a href="">Register</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="content">
+        <h1>Welcome to the todo app</h1>  
+        <div class='buttons'>
+        <button>Go to Todo</button>
+        <button>Login</button>
+        <button>Register</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Created by: <a href="https://olinabin.com.np/">Nabin Oli</a></p>
+</body>
+</html>
